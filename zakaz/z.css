@@ -1,0 +1,78 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: rgba(0, 139, 58, 0.685);
+}
+
+h1{
+    padding: 10px 5px;
+    margin: auto;
+    margin-top: 15px;
+    text-align: center;
+    font-size: 46px;
+    font-family: 'Chivo Mono', monospace;
+    line-height: 1.90;
+    width: 40%;
+    background-color: rgba(0, 255, 255, 0.185);
+    border: 14px ridge rgb(19, 38, 39);
+}
+
+main{
+    width: 75%;
+    height: 80%;
+    padding: 7px;
+    margin: auto;
+    background: rgba(255, 255, 255, 0.671);
+    box-shadow: 0 0 10px 10px rgba(0, 0, 0, 0.377)
+}
+
+.tank{
+    margin-left: 15px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+h2{
+    width: 40%;
+    text-align: center;
+    margin: auto;
+    margin-top: 75px;
+    padding: 20px;
+    font-size: 40px;
+    font-family: 'Chivo Mono', monospace;
+    line-height: 1.90;
+    box-shadow: 20px 20px 10px 7px rgba(0, 0, 0, 0.288) ;
+    border: 8px solid rgba(255, 255, 255, 0.747);
+}
+
+h3{
+    display: inline;
+}
+
+.photo{
+    width: calc(40% - 20px);
+    height: calc((35vw - 40px) / 16 * 9);
+    margin: 20px;
+    display: inline-block;
+    background-size: cover;
+}
+
+.photoFlex {
+    display: flex;
+    justify-content: center;
+}
+
+
+
+.ph1{
+    background-image: url(img/1t.jpg);
+}
+
+.ph2{
+    background-image: url(img/2t.jpg);
+}
